@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{8E9745C4-AA52-4985-8879-8F63FFBCEEE5}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeFull" HeapArrays="0" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" AdditionalLibraryDirectories="C:\Users\bpoll\source\repos\Libraries_BP" GenerateDebugInformation="true" SubSystem="subSystemConsole" StackReserveSize="90000000" AdditionalDependencies="LAPACKE.lib LAPACK.lib BLAS.lib"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" Optimization="optimizeFull" HeapArrays="0" OpenMP="OpenMPParallelCode" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" AdditionalLibraryDirectories="C:\Users\bpoll\source\repos\Libraries_BP" SubSystem="subSystemConsole" StackReserveSize="90000000" AdditionalDependencies="LAPACKE.lib LAPACK.lib BLAS.lib"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath=".\Affect_Vorts_Pot.f90"/>
+		<File RelativePath=".\Affects_Vorts.f90"/>
+		<File RelativePath=".\Create_Shape.f90"/>
+		<File RelativePath=".\Determine_erf.f90"/>
+		<File RelativePath=".\FMM2.f90"/>
+		<File RelativePath=".\FMM3.f90"/>
+		<File RelativePath=".\Force_Calc.f90"/>
+		<File RelativePath=".\Grid_Create.f90"/>
+		<File RelativePath=".\Grid_Create2.f90"/>
+		<File RelativePath=".\MAIN_INIT.f90"/>
+		<File RelativePath=".\Panel_Influence.f90"/>
+		<File RelativePath=".\Place_Vorts.f90"/>
+		<File RelativePath=".\Print_Data.f90"/>
+		<File RelativePath=".\Print_Mat.f90"/>
+		<File RelativePath=".\PSE4.f90"/>
+		<File RelativePath=".\Redistribute3.f90"/>
+		<File RelativePath=".\Redistribute4.f90"/>
+		<File RelativePath=".\Remove_Vorts.f90"/>
+		<File RelativePath=".\Rotate_Body.f90"/>
+		<File RelativePath=".\Viscous_Vortex.f90"/></Filter>
+		<File RelativePath=".\ReadMe.txt"/></Files>
+	<Globals/></VisualStudioProject>
